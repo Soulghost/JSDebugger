@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   end
   
   s.source_files = 'Source/**/*'
-  s.public_header_files = ['Source/FileWatcher/*.h', 'Source/Core/JDEngine.h', 'Source/JSDebugger.h']
+  s.public_header_files = ['Source/**/*.h']
   s.vendored_libraries = 'Source/Core/FFI/Vendor/libffi.a'
   
 end
